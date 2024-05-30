@@ -1,0 +1,35 @@
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #191919;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.second-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    gap: 20px;
+}
+.redes a{
+    color: #fff;
+    transition: .7s;
+}
+.redes a:hover{
+    color: #ee0134;
+}
