@@ -5,11 +5,11 @@ import ReactDOM from 'react-dom/client';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Sobre from './pages/Sobre/Sobre';
 import Contato from './pages/Contato/Contato.jsx';
 import Projetos from './pages/Projetos/Projetos.jsx';
 import App from './App.jsx';
 import ErroPage from './pages/ErroPage/ErroPage.jsx';
+import Habilidades from './pages/Habilidades/Habilidades.jsx';
 
 // const router = createBrowserRouter([
 //   {
@@ -41,8 +41,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/sobre",
-        element: <Sobre />,
+        path: "/habilidades",
+        element: <Habilidades />,
       },
       {
         path: "/projetos",
