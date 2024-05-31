@@ -64,6 +64,10 @@ function Home() {
 
                     </div>
 
+                    <div className="time-line">
+                        <h2 style={{ color: '#fff', }}>Linha do tempo aqui</h2>
+                    </div>
+
                 </div>
 
             </div>
