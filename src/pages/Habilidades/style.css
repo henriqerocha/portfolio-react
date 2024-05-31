@@ -1,0 +1,113 @@
+.habilidades{
+    background-color: #101010;
+    height: 80vh;
+    background-image: url('../../assets/home-alternative.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-habilidades{
+    padding-top: 50px !important;
+    position: relative;
+    background-color: rgba(24, 24, 24, 0.804);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.content-cards{
+    display: flex;
+    gap: 30px;
+}
+.title-hab{
+    position: relative;
+}
+.title-hab::after{
+    content: " ";
+    margin: -9px -5%;
+    width: 70%;
+    height: 6px;
+    background-color: #DC3545;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.meuCard {
+    display: flex;
+    justify-content: center;
+    transition: filter 0.3s;
+    margin-top: 100px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, .8);
+    color: #DC3545;
+    font-weight: normal;
+    transition: filter 0.3s; /* Adiciona uma transição suave */
+    transition: 0.5s ease-in-out;
+  }
+
+  .meuCard:hover {
+    filter: none; /* Remove o filtro quando o mouse está sobre o card */
+    transform: scale(1.2);
+    transition: all 1s;
+  }
+  
+  .meuCard.apagado {
+    filter: grayscale(100%); /* Aplica o efeito de apagado */
+  }
+
+  .tools {
+    display: flex;
+    align-items: center;
+    padding: 0 9px 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+.card-text{
+    font-weight: 700;
+}
+.card-img-hab{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+.btn{
+    font-weight: 700;
+}
+.links-redes button{
+    padding: 15px 35px;
+}
+
+
+
+
+.modal-body input:focus, .modal-body textarea:focus{
+    box-shadow: none;
+    border: 2px solid #DC3545;
+}

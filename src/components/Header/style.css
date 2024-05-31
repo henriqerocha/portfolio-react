@@ -5,6 +5,7 @@
     background-color: #191919;
     width: 100%;
     position: sticky;
+    border-bottom: 1px solid #fff;
 }
 .container-header{
     display: flex;

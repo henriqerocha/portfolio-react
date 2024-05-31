@@ -27,11 +27,6 @@
     border-radius: 15px;
     box-shadow: 2px 2px 30px #ee0134;
 }
-.title{
-    text-align: center;
-    margin: 20px 0;
-    color: #ee0134;
-}
 .title h1{
     font-weight: 400;
 }
@@ -40,7 +35,7 @@
 }
 .content-left button{
     margin: 30px 0;
-    padding: 10px 20px;
+    padding: 10px 0;
     border: 1px solid #ee0134;
     border-radius: 6px;
     background-color: transparent;
@@ -50,6 +45,14 @@
     font-size: 16px;
     font-weight: 600;
     transition: .5s ease;
+}
+.content-left button a{
+    padding: 10px 20px;
+    color: #ee0134;
+    text-decoration: none;
+}
+.content-left button a:hover{
+    color: #fff;
 }
 .content-left button:hover{
     background-color: #ee0134;

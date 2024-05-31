@@ -11,3 +11,10 @@
   display: flex;
 }
 
+.title{
+  text-align: center;
+  margin: 20px 0;
+  color: #ee0134;
+  font-size: 1.5rem;
+}
+
