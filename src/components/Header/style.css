@@ -5,7 +5,7 @@
     background-color: #191919;
     width: 100%;
     position: sticky;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ee0134;
 }
 .container-header{
     display: flex;
@@ -23,7 +23,7 @@
     position: relative;
 }
 .lista-menu li a{
-    color: #fff;
+    color: #cacaca;
     list-style: none;
     text-decoration: none;
     font-size: 1rem;

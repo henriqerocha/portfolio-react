@@ -12,9 +12,19 @@
 }
 
 .title{
+  position: relative;
   text-align: center;
   margin: 20px 0;
   color: #ee0134;
   font-size: 1.5rem;
+}
+.title::after{
+  content: " ";
+  width: 70%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
