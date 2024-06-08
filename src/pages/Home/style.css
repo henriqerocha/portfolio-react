@@ -7,7 +7,6 @@
     background-color: #101010;
 }
 .container-home{
-    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -66,4 +65,41 @@
 }
 .bi-github, .bi-linkedin, .bi-filetype-pdf{
     margin-right: 10px;
+}
+
+/* timeline */
+.timeline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.timeline-container{
+    color: #fff;
+    width: 50%;
+    margin: 80px 0;
+}
+.timeline-item{
+    list-style: none;
+    position: relative;
+}
+.timeline-item::before{
+    content: '';
+    background: #ee0134;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: -40px;
+}
+.timeline-item::after{
+    content: '';
+    background-color: #444;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: -34px;
+    top: 15px;
+}
+.desc-timeline{
+    padding: 20px 0;
 }

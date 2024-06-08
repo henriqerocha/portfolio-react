@@ -64,8 +64,59 @@ function Home() {
 
                     </div>
 
-                    <div className="time-line">
-                        <h2 style={{ color: '#fff', }}>Linha do tempo aqui</h2>
+                    <div className="timeline">
+                        <div className="timeline-container">
+                            <ul>
+                                <li className="timeline-item">
+                                    <div className="title-timeline">
+                                        <h3>DESENVOLVEDOR FRONT-END</h3>
+                                    </div>
+                                    <div className="instituicao">
+                                        <h4>DEVMEDIA</h4>
+                                    </div>
+                                    <div className="desc-timeline">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugit commodi, rerum facilis quisquam, aliquid beatae eligendi doloremque iusto recusandae iure nesciunt voluptas provident fuga exercitationem vel perferendis ducimus quas molestiae maiores ea, consequuntur iste! Quaerat labore mollitia quos! Odit, officiis esse mollitia minus adipisci maiores temporibus repudiandae cum in!</p>
+                                    </div>
+                                </li>
+
+                                <li className="timeline-item">
+                                    <div className="title-timeline">
+                                        <h3>DESENVOLVEDOR FRONT-END</h3>
+                                    </div>
+                                    <div className="instituicao">
+                                        <h4>DEVMEDIA</h4>
+                                    </div>
+                                    <div className="desc-timeline">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugit commodi, rerum facilis quisquam, aliquid beatae eligendi doloremque iusto recusandae iure nesciunt voluptas provident fuga exercitationem vel perferendis ducimus quas molestiae maiores ea, consequuntur iste! Quaerat labore mollitia quos! Odit, officiis esse mollitia minus adipisci maiores temporibus repudiandae cum in!</p>
+                                    </div>
+                                </li>
+
+                                <li className="timeline-item">
+                                    <div className="title-timeline">
+                                        <h3>DESENVOLVEDOR FRONT-END</h3>
+                                    </div>
+                                    <div className="instituicao">
+                                        <h4>DEVMEDIA</h4>
+                                    </div>
+                                    <div className="desc-timeline">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugit commodi, rerum facilis quisquam, aliquid beatae eligendi doloremque iusto recusandae iure nesciunt voluptas provident fuga exercitationem vel perferendis ducimus quas molestiae maiores ea, consequuntur iste! Quaerat labore mollitia quos! Odit, officiis esse mollitia minus adipisci maiores temporibus repudiandae cum in!</p>
+                                    </div>
+                                </li>
+
+                                <li className="timeline-item">
+                                    <div className="title-timeline">
+                                        <h3>DESENVOLVEDOR FRONT-END</h3>
+                                    </div>
+                                    <div className="instituicao">
+                                        <h4>DEVMEDIA</h4>
+                                    </div>
+                                    <div className="desc-timeline">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugit commodi, rerum facilis quisquam, aliquid beatae eligendi doloremque iusto recusandae iure nesciunt voluptas provident fuga exercitationem vel perferendis ducimus quas molestiae maiores ea, consequuntur iste! Quaerat labore mollitia quos! Odit, officiis esse mollitia minus adipisci maiores temporibus repudiandae cum in!</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
