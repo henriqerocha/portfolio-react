@@ -28,3 +28,10 @@
   left: 0px;
 }
 
+.divisor{
+  width: 80%;
+  height: 1px;
+  margin-top: 30px 0;
+  background-color: #444;
+
+}

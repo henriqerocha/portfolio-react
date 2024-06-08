@@ -64,6 +64,8 @@ function Home() {
 
                     </div>
 
+                    <div className="divisor"></div>
+
                     <div className="timeline">
                         <div className="timeline-container">
                             <ul>
