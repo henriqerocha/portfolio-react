@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import './style.css';
 import '../../global.css'
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo-menor.svg";
 
 function Header() {
+
+    const handleClick = (event) => {
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => link.classList.remove('active'));
+        event.currentTarget.classList.add('active');
+    }
+
+
+
+
     return (
         <div className="header">
 
@@ -44,10 +53,10 @@ function Header() {
                     <div className="menu">
                         <nav className="navbar">
                             <ul className="lista-menu">
-                                <li className="nav-link"><Link to="/">Home</Link></li>
-                                <li className="nav-link"><Link to="/habilidades">Habilidades</Link></li>
-                                <li className="nav-link"><Link to="/projetos">Projetos</Link></li>
-                                <li className="nav-link"><Link to="/contato">Contato</Link></li>
+                                <li className="nav-link" onClick={(event) => handleClick(event)}><Link to="/">Home</Link></li>
+                                <li className="nav-link" onClick={(event) => handleClick(event)}><Link to="/habilidades">Habilidades</Link></li>
+                                <li className="nav-link" onClick={(event) => handleClick(event)}><Link to="/projetos">Projetos</Link></li>
+                                <li className="nav-link" onClick={(event) => handleClick(event)}><Link to="/contato">Contato</Link></li>
                             </ul>
                         </nav>
                     </div>
