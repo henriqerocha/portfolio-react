@@ -4,7 +4,24 @@ import './style.css'
 function Contato() {
     return (
         <>
-            <h2>Essa é a página CONTATO</h2>
+            <div className="container-contato">
+
+                <div className="container">
+
+                    <div className="form-contato">
+                        <form action="">
+                            <input type="text" placeholder="Nome:" />
+
+                            <input type="text" placeholder="Empresa:" />
+
+                            <input type="text" placeholder="Whatsapp:" />
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
         </>
     )
 }
