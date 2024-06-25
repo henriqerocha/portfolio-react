@@ -3,10 +3,15 @@ import './style.css'
 
 function Contato() {
     return (
-        <>
+        <section className="contato">
+
             <div className="container-contato">
 
                 <div className="container">
+
+                    <div className="title">
+                        <h1>Entre em contato</h1>
+                    </div>
 
                     <div className="form-contato">
                         <form action="">
@@ -16,13 +21,18 @@ function Contato() {
 
                             <input type="text" placeholder="Whatsapp:" />
 
+                            <textarea name="" id="" placeholder="Mensagem:"></textarea>
+
+                            <button>Enviar</button>
+
                         </form>
                     </div>
 
                 </div>
 
             </div>
-        </>
+
+        </section>
     )
 }
 

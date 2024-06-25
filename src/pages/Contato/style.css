@@ -5,6 +5,7 @@
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .form-contato{
     width: 60%;
@@ -18,4 +19,30 @@
     outline: none;
     font-weight: 600;
     margin: 5px 0;
+}
+.form-contato textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    font-weight: 600;
+}
+.form-contato button{
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    margin: 5px 0;
+    background-color: #ee0134;
+    color: #000;
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+.form-contato button:hover{
+    background-color: #ff1d4e;
 }
