@@ -15,15 +15,15 @@ function Contato() {
 
                     <div className="form-contato">
                         <form action="">
-                            <input type="text" placeholder="Nome:" />
+                            <input id="name" type="text" placeholder="Nome:" />
 
-                            <input type="text" placeholder="Empresa:" />
+                            <input id="company" type="text" placeholder="Empresa:" />
 
-                            <input type="text" placeholder="Whatsapp:" />
+                            <input id="wpp" type="text" placeholder="Whatsapp:" />
 
-                            <textarea name="" id="" placeholder="Mensagem:"></textarea>
+                            <textarea name="" id="message" placeholder="Mensagem:"></textarea>
 
-                            <button>Enviar</button>
+                            <button id="btn-enviar">Enviar</button>
 
                         </form>
                     </div>
